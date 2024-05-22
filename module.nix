@@ -109,7 +109,7 @@ in
         WatchdogSec = "5s";
         Restart = "always";
         RestartSec = "4";
-        MemoryMax = "9223372036854771712";
+        MemoryMax = "18446744073709543424";
         ExecStop = "${cfg.package}/bin/sentinelctl control shutdown";
         NotifyAccess = "all";
         KillMode = "process";
