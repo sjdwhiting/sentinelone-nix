@@ -16,8 +16,8 @@ stdenv.mkDerivation {
   version = "22.3.3.11";
 
   src = fetchurl {
-    url = "https://imugit.imubit.com/morgan.helton/sentinelone/-/raw/main/${sentinelOnePackage}";
-    hash = "sha256-Ti9y5VLLMa7CQMJJpJuAiaNwZyf2VSaeD1o/cCPPfUk=";
+    url = "https://sebsec.s3.amazonaws.com/SentinelAgent_linux_x86_64_v24_1_2_6.deb";
+    hash = "sha256-v6kBP707j2Ep9xN9Y+uIZSJ/SFBD7lYnoFIa/ibXeCA=";
   };
 
   unpackPhase = ''

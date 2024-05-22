@@ -17,6 +17,8 @@
         };
       };
 
+      defaultPackage.${system} = package;
+
       nixosModules = {
         sentinelone = {
           imports = [
