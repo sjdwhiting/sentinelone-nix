@@ -17,7 +17,7 @@ stdenv.mkDerivation {
 
   src = fetchurl {
     url = "https://sebsec.s3.amazonaws.com/SentinelAgent_linux_v22_4_2_4.deb";
-    hash = "sha256-v6kBP707j2Ep9xN9Y+uIZSJ/SFBD7lYnoFIa/ibXeCA=";
+    hash = "sha256-vs1kFD5vHaVur30ebemExTMAfK44f70njvWe03rSpMI=";
   };
 
   unpackPhase = ''
