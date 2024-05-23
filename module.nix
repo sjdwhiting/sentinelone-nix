@@ -109,6 +109,7 @@ in
         WatchdogSec = "5s";
         Restart = "always";
         RestartSec = "4";
+        PIDFile = "${cfg.dataDir}/configuration/agent.pid";
         MemoryMax = "18446744073709543424";
         ExecStop = "${cfg.package}/bin/sentinelctl control shutdown";
         NotifyAccess = "all";
