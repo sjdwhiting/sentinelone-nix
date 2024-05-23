@@ -113,7 +113,6 @@ in
         ExecStop = "${cfg.package}/bin/sentinelctl control shutdown";
         NotifyAccess = "all";
         KillMode = "process";
-        PIDFile = "${cfg.dataDir}/configuration/agent.pid";
         TasksMax = "infinity";
         BindPaths = "${cfg.dataDir}:/opt/sentinelone";
       };
