@@ -13,7 +13,7 @@ let
 in
 stdenv.mkDerivation {
   pname = "sentinelone";
-  version = "22.3.3.11";
+  version = "24.1.2.6";
 
   src = fetchurl {
     url = "https://sebsec.s3.amazonaws.com/SentinelAgent_linux_x86_64_v24_1_2_6.deb";
