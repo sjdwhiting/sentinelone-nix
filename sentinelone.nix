@@ -16,7 +16,7 @@ stdenv.mkDerivation {
   version = "24.1.2.6";
 
   src = fetchurl {
-    url = "https://sebsec.s3.amazonaws.com/SentinelAgent_linux_x86_64_v24_1_2_6.deb";
+    url = "https://sebsec.s3.amazonaws.com/SentinelAgent_linux_v22_4_2_4.deb";
     hash = "sha256-v6kBP707j2Ep9xN9Y+uIZSJ/SFBD7lYnoFIa/ibXeCA=";
   };
 
